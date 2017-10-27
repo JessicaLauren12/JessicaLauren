@@ -1,0 +1,94 @@
+<!doctype html>
+<meta charset="utf-8">
+<html>
+     <head>
+        <title>The Taylor Question</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./stylesheet.css">
+    </head>
+    <body>
+        <div class="page">
+          <!-- Update the section below to add your own personal information -->
+          <h1 style=text-align:center>The Taylor Question</h1>
+          <h2 style="text-align:center">In which Taylor is The Gaurdian more interested—Taylow Swift or Taylor Ham?</h2>
+
+            <div class="single_viz" id="favorite">
+                <div class="allFavorites">
+                  <div class="favorites" id="favorites">
+                    <div>
+                      <img src="images/vogueswift.png" width="370" height ="250"/>
+                    </div>
+                  </div>
+                  <div class="favorites">
+                      <img src="images/vogueham.png" width="370" height= "250"/>
+                  </div>
+                </div>
+              </div>
+<hr/>
+<hr/>
+
+<div class="page">
+</br>
+    <h2 style="text-align:center"> Articles in The Gaurdian with Taylor references in 2017 </h2>
+
+    </br>
+    </br>
+
+    <svg class="chartt" width="800" height="300">
+      <g transform="translate(405,93)">
+        <rect width="150" height="170"></rect>
+        <text x="75" y="20" dy=".35em">171</text>
+        <text x="75" y="190" dy=".35em">"Taylor"+"Ham"</text>
+      </g>
+      <g transform="translate(230,0)">
+        <rect width="150" height="264"></rect>
+        <text x="75" y="20" dy=".35em">264</text>
+        <text x="75" y="284" dy=".35em">"Taylor"+"Swift"</text>
+      </g>
+
+    </svg>
+
+
+<hr/>
+<hr/>
+</br>
+<div class="page">
+<h2 style="text-align:center">Proportion of all "Taylor" Mentions</h2>
+              <div class="single_viz" id="bubble">
+                  <div class="text">
+                      Analysis
+                      <p>Among the 2,541 articles published in The Gaurdian in 2017 that reference a "Taylor," 264 are about Taylor Swift and 171 are about Taylor Ham. That means that these topics account for 10.39% and 6.73% of articles with Taylor mentions, but leaves 82.88% of total Taylor coverage yet unknown. </p>
+                      <button class="button" type="button" onclick="shuffle_colors();">Shuffle the colors</button>
+                      <br>
+
+                  </div>
+                  <svg class="chart" id="svg_bubble"></svg>
+</br>
+              </div>
+
+              <!-- Add other sections if you like -->
+              <div class="single_viz" >
+                <h2 style="text-align:center">Subsequent question in spired by analysis: What is the identity of those remaining "Taylors"?</h2>
+                <hr/>
+                <hr/>
+                <p font-weight=900> Methodology: </p> <p>For the purposes of this analysis, all articles from The Gaurdian that contained the word "Taylor" in conjunction with "Swift" were assumed to be in reference to Taylor Swift, a popular musician, and those that contained "Taylor" in conjunction with "Ham" were assumed to be in reference to Taylor Ham, a popular lunch meat. It is, of course, possible that an article could mention a combination of those words without refering to the targeted subjects. For example, characterization of American track and field athlete Christian Taylor as "swift" or a recipe for Ham and Split Pea Soup by Miami's six-grade chef, Taylor Moxey, would bias results. A more robust analysis of categorical Taylor preferences in The Gaurdian would require cross-checking of related themes and additional research about the yet unidentified Taylor mentions.   </p>
+                  <svg class="chart" id="chart" width="420" height="120"></svg>
+              </div>
+          </div>
+        </div>
+
+        <script src="http://d3plus.org/js/d3.js"></script>
+        <script src="http://d3plus.org/js/d3plus.js"></script>
+        <script src="http://d3plus.org/js/topojson.js"></script>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="http://d3js.org/queue.v1.min.js"></script>
+        <script src="http://d3js.org/topojson.v1.min.js"></script>
+        <script src="./datamaps.world.min.js"></script>
+        <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+        <script src="./map.js"></script>
+        <script src="./bubble.js"></script>
+        <script>
+
+        </script>
+    </body>
+</html>

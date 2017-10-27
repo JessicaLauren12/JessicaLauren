@@ -1,0 +1,113 @@
+<!doctype html>
+<meta charset="utf-8">
+<html>
+     <head>
+        <title>The Taylor Question</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./stylesheet.css">
+    </head>
+    <body>
+        <div class="page">
+          <!-- Update the section below to add your own personal information -->
+          <h1 style=text-align:center>The Taylor Question</h1>
+          <h2 style="text-align:center">In which Taylor is The Gaurdian more interested--Taylow Swift or Taylor Ham?</h2>
+
+            <div class="single_viz" id="favorite">
+                <div class="allFavorites">
+                  <div class="favorites" id="favorites">
+                    <div>
+                      <img src="images/vogueswift.png" width="370" height ="250"/>
+                    </div>
+                  </div>
+                  <div class="favorites">
+                      <img src="images/vogueham.png" width="370" height= "250"/>
+                  </div>
+                </div>
+              </div>
+<hr/>
+
+<div class="page">
+</br>
+    <h2 style="text-align:center"> Articles with Taylore references in 2017 </h2>
+    </br>
+    </br>
+
+    <svg class="chartt" width="800" height="300">
+      <g transform="translate(405,93)">
+        <rect width="150" height="170"></rect>
+        <text x="75" y="20" dy=".35em">171</text>
+        <text x="75" y="190" dy=".35em">"Taylor"+"Ham"</text>
+      </g>
+      <g transform="translate(230,0)">
+        <rect width="150" height="264"></rect>
+        <text x="75" y="20" dy=".35em">264</text>
+        <text x="75" y="284" dy=".35em">"Taylor"+"Swift"</text>
+      </g>
+
+    </svg>
+
+
+<hr/>
+
+
+              <div class="single_viz" id="bubble">
+                  <div class="text">
+                      In My Leisure Time
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make
+                        a type specimen book. </p>
+                      <button class="button" type="button" onclick="shuffle_colors();">Shuffle the colors</button>
+                      <br>
+                      <div class="dropdown">
+                      <button class="dropbtn"><span id="cat">all</span> <span style='float: right;'>▼</span></button>
+                      <div class="dropdown-content">
+                          <a onclick="filter('sports');">sports</a>
+                          <a onclick="filter('arts');">arts</a>
+                          <a onclick="filter('food');">food</a>
+                          <a onclick="filter('all');">all</a>
+                        </div>
+                      </div>
+                  </div>
+                  <svg class="chart" id="svg_bubble"></svg>
+              </div>
+
+              <hr/>
+              <div id="viz-container">
+                  <div class="single_viz" id="map">
+                      <div class="text">
+                        My Path
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took a galley of type and scrambled it to make
+                          a type specimen book. </p>
+                      </div>
+                      <div class="chart" id="svg_map"></div>
+                  </div>
+
+
+                <hr/>
+
+              <!-- Add other sections if you like -->
+              <div class="single_viz" >
+                  <div class="text">Put anything you'd like to share!</div>
+                  <svg class="chart" id="chart" width="420" height="120"></svg>
+              </div>
+          </div>
+        </div>
+
+        <script src="http://d3plus.org/js/d3.js"></script>
+        <script src="http://d3plus.org/js/d3plus.js"></script>
+        <script src="http://d3plus.org/js/topojson.js"></script>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="http://d3js.org/queue.v1.min.js"></script>
+        <script src="http://d3js.org/topojson.v1.min.js"></script>
+        <script src="./datamaps.world.min.js"></script>
+        <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+        <script src="./map.js"></script>
+        <script src="./bubble.js"></script>
+        <script>
+
+        </script>
+    </body>
+</html>
